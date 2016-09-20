@@ -1,10 +1,46 @@
+.imgPosition {
+	position: relative;
+  	top: 50px;
+	padding-left: 44%;
+	padding-right: 50%;
+  	margin-bottom: 30px;
+}
+
+.profile {
+	height: 280px;
+	border-radius: 100px;
+	padding-bottom: 60px;
+}
+
 nav {
-  margin: 0 auto;
+	width: 100%;
+	margin-left: 10px;
+  	text-align: center;
+  	font-size: 22px;
 }
+
 nav li {
-  display: inline-block;
-  padding: 10px;
+  	display: inline-block;
+  	padding: 10px;
 }
+
 nav a {
-  text-direction: none;
+  	text-decoration: none;
+}
+
+@media screen and (max-width: 480px) {
+
+.imgPosition {
+	position: relative;
+  	top: 50px;
+	padding-left: 30%;
+	padding-right: 50%;
+  	margin-bottom: 30px;
+}
+
+.profile {
+	height: 280px;
+	border-radius: 100px;
+	padding-bottom: 60px;
+}
 }
