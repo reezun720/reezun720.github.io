@@ -1,8 +1,9 @@
 nav {
- margin: 0 auto;
+  margin: 0 auto;
 }
 nav li {
   display: inline-block;
+  padding: 10px;
 }
 nav a {
   text-direction: none;
